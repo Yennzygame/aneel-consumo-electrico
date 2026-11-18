@@ -1,0 +1,35 @@
+# Datos crudos de ANEEL/SAMP: ~1,8 GB, se descargan de la fuente.
+# Ver data/raw/README.md para los archivos esperados.
+data/raw/*
+!data/raw/README.md
+
+# Notas de contexto del curso y críticas de la reunión (no se publican)
+contexto-ciencia-datos-11-17.txt
+contexto-cienciadatos-projecto.txt
+contexto2-cienciadatos-projecto.txt
+presentacion-10-nov.txt
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Artefactos locales de MLflow (el tracking sqlite sí se versiona)
+mlartifacts/
+
+# Temporales
+*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

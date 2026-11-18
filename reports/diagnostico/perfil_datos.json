@@ -1,0 +1,1211 @@
+{
+  "total_filas": 6671150,
+  "filas_por_archivo": {
+    "samp-2021.csv": 950318,
+    "samp-2022.csv": 973685,
+    "samp-2023.csv": 1107340,
+    "samp-2024.csv": 1303447,
+    "samp-2025.csv": 1372149,
+    "samp-2026.csv": 964211
+  },
+  "valores_no_numericos": 0,
+  "filas_valor_negativo": 664448,
+  "formato_vlmercado": {
+    "con_valor": 20,
+    "con_coma": 6671150,
+    "con_punto": 0,
+    "formato_invalido": 54767
+  },
+  "meses": {
+    "min": "2021-01-01",
+    "max": "2026-09-01",
+    "n_meses_distintos": 69,
+    "conteo_por_mes": {
+      "2021-01-01": 75198,
+      "2021-02-01": 77631,
+      "2021-03-01": 77484,
+      "2021-04-01": 77875,
+      "2021-05-01": 78548,
+      "2021-06-01": 79646,
+      "2021-07-01": 79590,
+      "2021-08-01": 80335,
+      "2021-09-01": 79901,
+      "2021-10-01": 80574,
+      "2021-11-01": 81560,
+      "2021-12-01": 81976,
+      "2022-01-01": 82240,
+      "2022-02-01": 82073,
+      "2022-03-01": 83209,
+      "2022-04-01": 83234,
+      "2022-05-01": 82807,
+      "2022-06-01": 78775,
+      "2022-07-01": 79839,
+      "2022-08-01": 80182,
+      "2022-09-01": 79802,
+      "2022-10-01": 79616,
+      "2022-11-01": 80937,
+      "2022-12-01": 80971,
+      "2023-01-01": 85516,
+      "2023-02-01": 86240,
+      "2023-03-01": 90456,
+      "2023-04-01": 89694,
+      "2023-05-01": 91891,
+      "2023-06-01": 90985,
+      "2023-07-01": 91209,
+      "2023-08-01": 93976,
+      "2023-09-01": 94121,
+      "2023-10-01": 95346,
+      "2023-11-01": 98580,
+      "2023-12-01": 99326,
+      "2024-01-01": 101506,
+      "2024-02-01": 101484,
+      "2024-03-01": 102496,
+      "2024-04-01": 104210,
+      "2024-05-01": 103940,
+      "2024-06-01": 103772,
+      "2024-07-01": 112217,
+      "2024-08-01": 112903,
+      "2024-09-01": 113313,
+      "2024-10-01": 116874,
+      "2024-11-01": 115340,
+      "2024-12-01": 115392,
+      "2025-01-01": 112131,
+      "2025-02-01": 110768,
+      "2025-03-01": 110363,
+      "2025-04-01": 111035,
+      "2025-05-01": 116448,
+      "2025-06-01": 117900,
+      "2025-07-01": 117402,
+      "2025-08-01": 114809,
+      "2025-09-01": 114601,
+      "2025-10-01": 115583,
+      "2025-11-01": 114780,
+      "2025-12-01": 116329,
+      "2026-01-01": 118750,
+      "2026-02-01": 114270,
+      "2026-03-01": 114465,
+      "2026-04-01": 113870,
+      "2026-05-01": 117262,
+      "2026-06-01": 120158,
+      "2026-07-01": 121285,
+      "2026-08-01": 121410,
+      "2026-09-01": 22741
+    }
+  },
+  "cardinalidades": {
+    "NomTipoMercado": 13,
+    "DscModalidadeTarifaria": 7,
+    "DscSubGrupoTarifario": 12,
+    "DscClasseConsumoMercado": 10,
+    "DscSubClasseConsumidor": 18,
+    "DscDetalheConsumidor": 13,
+    "DscPostoTarifario": 5,
+    "DscOpcaoEnergia": 5,
+    "DscDetalheMercado": 27,
+    "SigAgenteDistribuidora": 105
+  },
+  "frecuencias": {
+    "NomTipoMercado": [
+      [
+        "Regular",
+        3191866
+      ],
+      [
+        "Sistema de Compensação GD I",
+        1525217
+      ],
+      [
+        "Sistema de Compensação GD II",
+        713457
+      ],
+      [
+        "Refaturamento - Regular",
+        637049
+      ],
+      [
+        "Sistema de Compensação GD I - Refaturamento",
+        303502
+      ],
+      [
+        "Sistema de Compensação GD II - Refaturamento",
+        108600
+      ],
+      [
+        "Sistema Isolado - Regular",
+        101145
+      ],
+      [
+        "Sistema de Compensação GD III",
+        55781
+      ],
+      [
+        "Sistema Isolado - Refaturamento",
+        26615
+      ],
+      [
+        "Sistema de Compensação GD III - Refaturamento",
+        4680
+      ],
+      [
+        "Sistema Individual - Regular",
+        2715
+      ],
+      [
+        "Sistema Individual - Refaturamento",
+        522
+      ],
+      [
+        "RTE",
+        1
+      ]
+    ],
+    "DscModalidadeTarifaria": [
+      [
+        "Convencional",
+        2317638
+      ],
+      [
+        "Verde",
+        2031025
+      ],
+      [
+        "Azul",
+        1016345
+      ],
+      [
+        "Branca",
+        601231
+      ],
+      [
+        "Geração",
+        577751
+      ],
+      [
+        "Distribuição",
+        123923
+      ],
+      [
+        "Energia Fotovoltaica (Res. 083/2004)",
+        3237
+      ]
+    ],
+    "DscSubGrupoTarifario": [
+      [
+        "A4",
+        2605102
+      ],
+      [
+        "B3",
+        1139358
+      ],
+      [
+        "B1",
+        1052219
+      ],
+      [
+        "B2",
+        627312
+      ],
+      [
+        "A3a",
+        495512
+      ],
+      [
+        "A2",
+        336314
+      ],
+      [
+        "A3",
+        244029
+      ],
+      [
+        "B4",
+        101853
+      ],
+      [
+        "AS",
+        58227
+      ],
+      [
+        "A1",
+        6232
+      ],
+      [
+        "B",
+        4457
+      ],
+      [
+        "A4c",
+        535
+      ]
+    ],
+    "DscClasseConsumoMercado": [
+      [
+        "Rural",
+        1334903
+      ],
+      [
+        "Residencial",
+        1161455
+      ],
+      [
+        "Industrial",
+        1131833
+      ],
+      [
+        "Comercial",
+        1059080
+      ],
+      [
+        "Não se aplica",
+        715997
+      ],
+      [
+        "Poder público",
+        580082
+      ],
+      [
+        "Serviço público",
+        454505
+      ],
+      [
+        "Consumo próprio",
+        130811
+      ],
+      [
+        "Iluminação pública",
+        101853
+      ],
+      [
+        "Serviço Público",
+        631
+      ]
+    ],
+    "DscSubClasseConsumidor": [
+      [
+        "Não se aplica",
+        4273896
+      ],
+      [
+        "Residencial",
+        576150
+      ],
+      [
+        "Agropecuária rural",
+        483310
+      ],
+      [
+        "Água, esgoto e saneamento",
+        425918
+      ],
+      [
+        "Aquicultura",
+        167061
+      ],
+      [
+        "Residencial baixa renda  faixa 03",
+        119508
+      ],
+      [
+        "Residencial baixa renda  faixa 02",
+        118964
+      ],
+      [
+        "Residencial baixa renda  faixa 04",
+        118425
+      ],
+      [
+        "Residencial baixa renda  faixa 01",
+        115722
+      ],
+      [
+        "Iluminação pública  B4a",
+        87807
+      ],
+      [
+        "Residencial Tarifa Social  faixa 02",
+        44835
+      ],
+      [
+        "Tração elétrica",
+        29218
+      ],
+      [
+        "Residencial Tarifa Social  faixa 01",
+        25915
+      ],
+      [
+        "Residencial Desconto Social  faixa 02",
+        21044
+      ],
+      [
+        "Residencial Desconto Social  faixa 01",
+        20892
+      ],
+      [
+        "Cooperativa de eletrificação rural",
+        20492
+      ],
+      [
+        "Iluminação pública  B4b",
+        14046
+      ],
+      [
+        "Serviço público de irrigação rural",
+        7947
+      ]
+    ],
+    "DscDetalheConsumidor": [
+      [
+        "Não se aplica",
+        5832211
+      ],
+      [
+        "Fonte incentivada",
+        233645
+      ],
+      [
+        "IRRIG./AQUIC. PR",
+        195629
+      ],
+      [
+        "IRRIG./AQUIC.",
+        195438
+      ],
+      [
+        "Dupla contratação",
+        93114
+      ],
+      [
+        "<500",
+        78532
+      ],
+      [
+        "APE",
+        25926
+      ],
+      [
+        "ERC",
+        7233
+      ],
+      [
+        "Cooperativas autorizadas",
+        4669
+      ],
+      [
+        "TIPO 01",
+        2447
+      ],
+      [
+        "TIPO 02",
+        1410
+      ],
+      [
+        "Cooperativas autorizadas PR",
+        832
+      ],
+      [
+        "Fonte Incentivada",
+        64
+      ]
+    ],
+    "DscPostoTarifario": [
+      [
+        "Não se aplica",
+        4200980
+      ],
+      [
+        "Fora ponta",
+        1235527
+      ],
+      [
+        "Ponta",
+        1096361
+      ],
+      [
+        "Intermediário",
+        138274
+      ],
+      [
+        "Fora Ponta",
+        8
+      ]
+    ],
+    "DscOpcaoEnergia": [
+      [
+        "CATIVO",
+        5553727
+      ],
+      [
+        "GERAÇÃO",
+        577751
+      ],
+      [
+        "LIVRE",
+        415749
+      ],
+      [
+        "SUPRIMENTO",
+        71891
+      ],
+      [
+        "DISTRIBUIÇÃO",
+        52032
+      ]
+    ],
+    "DscDetalheMercado": [
+      [
+        "Receita Energia (R$)",
+        732557
+      ],
+      [
+        "Energia TUSD (kWh)",
+        720034
+      ],
+      [
+        "Energia TE (kWh)",
+        652709
+      ],
+      [
+        "ICMS (R$)",
+        440038
+      ],
+      [
+        "Número de consumidores",
+        404928
+      ],
+      [
+        "COFINS (R$)",
+        376926
+      ],
+      [
+        "PIS/PASEP (R$)",
+        376026
+      ],
+      [
+        "Demanda Faturada (kW)",
+        358277
+      ],
+      [
+        "Receita Demanda (R$)",
+        356529
+      ],
+      [
+        "Receita Bandeiras (R$)",
+        305373
+      ],
+      [
+        "Energia Consumida (kWh)",
+        259516
+      ],
+      [
+        "Desconto de energia compensada %",
+        182373
+      ],
+      [
+        "Energia Injetada (kWh)",
+        175657
+      ],
+      [
+        "Energia compensada (kWh)",
+        175653
+      ],
+      [
+        "Número de Consumidores",
+        148551
+      ],
+      [
+        "Desconto Demanda %",
+        139044
+      ],
+      [
+        "Receita Ultrapassagem Demanda (R$)",
+        135680
+      ],
+      [
+        "Ultrapassagem Demanda (kW)",
+        134607
+      ],
+      [
+        "Energia debitada do SCEE (kWh)",
+        129565
+      ],
+      [
+        "PIS/COFINS (R$)",
+        128005
+      ],
+      [
+        "Demanda Contratada kW",
+        95718
+      ],
+      [
+        "Desconto Energia TUSD %",
+        93634
+      ],
+      [
+        "Desconto Energia TE %",
+        83993
+      ],
+      [
+        "Receita energia compensada (R$)",
+        63371
+      ],
+      [
+        "PROINFA (kWh)",
+        2336
+      ],
+      [
+        "CBS (R$)",
+        25
+      ],
+      [
+        "IBS (R$)",
+        25
+      ]
+    ],
+    "SigAgenteDistribuidora": [
+      [
+        "COPEL-DIS",
+        224021
+      ],
+      [
+        "EMT",
+        220949
+      ],
+      [
+        "CEMIG-D",
+        214719
+      ],
+      [
+        "CPFL-PAULISTA",
+        213037
+      ],
+      [
+        "RGE SUL",
+        209748
+      ],
+      [
+        "CELESC",
+        203394
+      ],
+      [
+        "COELBA",
+        177467
+      ],
+      [
+        "ELEKTRO",
+        174968
+      ],
+      [
+        "EQUATORIAL PA",
+        168266
+      ],
+      [
+        "EMS",
+        159913
+      ],
+      [
+        "EQUATORIAL MA",
+        159422
+      ],
+      [
+        "ERO",
+        142212
+      ],
+      [
+        "EQUATORIAL GO",
+        138183
+      ],
+      [
+        "Neoenergia PE",
+        135622
+      ],
+      [
+        "EQUATORIAL PI",
+        135340
+      ],
+      [
+        "ENEL CE",
+        131166
+      ],
+      [
+        "EQUATORIAL AL",
+        127909
+      ],
+      [
+        "ESS",
+        127213
+      ],
+      [
+        "EDP ES",
+        124960
+      ],
+      [
+        "CEEE-D",
+        121988
+      ],
+      [
+        "ETO",
+        120525
+      ],
+      [
+        "CPFL JAGUARI",
+        120254
+      ],
+      [
+        "CPFL-PIRATINING",
+        115619
+      ],
+      [
+        "ELETROPAULO",
+        113678
+      ],
+      [
+        "Neoenergia Brasília",
+        110943
+      ],
+      [
+        "EPB",
+        109266
+      ],
+      [
+        "LIGHT SESA",
+        108226
+      ],
+      [
+        "ENEL RJ",
+        105503
+      ],
+      [
+        "COSERN",
+        103883
+      ],
+      [
+        "EDP SP",
+        99818
+      ],
+      [
+        "Âmbar Amazonas",
+        94783
+      ],
+      [
+        "EAC",
+        94416
+      ],
+      [
+        "ESE",
+        93378
+      ],
+      [
+        "EMR",
+        90139
+      ],
+      [
+        "ELFSM",
+        60043
+      ],
+      [
+        "CEA",
+        58055
+      ],
+      [
+        "ÂMBAR ENERGIA RR",
+        55725
+      ],
+      [
+        "SULGIPE",
+        51251
+      ],
+      [
+        "DMED",
+        47856
+      ],
+      [
+        "CRELUZ-D",
+        45082
+      ],
+      [
+        "ELETROCAR",
+        44993
+      ],
+      [
+        "CHESP",
+        43482
+      ],
+      [
+        "DCELT",
+        42796
+      ],
+      [
+        "COPREL",
+        42466
+      ],
+      [
+        "COCEL",
+        41185
+      ],
+      [
+        "CERMISSÕES",
+        39639
+      ],
+      [
+        "CERTEL ENERGIA",
+        39598
+      ],
+      [
+        "CERILUZ",
+        36857
+      ],
+      [
+        "CERIPa",
+        34248
+      ],
+      [
+        "CEMIRIM",
+        33815
+      ],
+      [
+        "CERTAJA",
+        33132
+      ],
+      [
+        "COOPERLUZ",
+        32605
+      ],
+      [
+        "UHENPAL",
+        31948
+      ],
+      [
+        "CELETRO",
+        31666
+      ],
+      [
+        "DEMEI",
+        31286
+      ],
+      [
+        "CERTHIL",
+        30550
+      ],
+      [
+        "HIDROPAN",
+        30109
+      ],
+      [
+        "CETRIL",
+        29697
+      ],
+      [
+        "Ceraçá",
+        29583
+      ],
+      [
+        "CERRP",
+        29153
+      ]
+    ]
+  },
+  "combinaciones_tipo_detalle": [
+    {
+      "tipo": "Regular",
+      "detalle": "Receita Energia (R$)",
+      "filas": 371322
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Energia TUSD (kWh)",
+      "filas": 367652
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Energia TE (kWh)",
+      "filas": 306949
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Demanda Faturada (kW)",
+      "filas": 264967
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Receita Demanda (R$)",
+      "filas": 261165
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "ICMS (R$)",
+      "filas": 206486
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Número de consumidores",
+      "filas": 180989
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "COFINS (R$)",
+      "filas": 156769
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "PIS/PASEP (R$)",
+      "filas": 156752
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Energia Consumida (kWh)",
+      "filas": 152535
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Receita Energia (R$)",
+      "filas": 145895
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Receita Bandeiras (R$)",
+      "filas": 145237
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Número de Consumidores",
+      "filas": 144543
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Energia TE (kWh)",
+      "filas": 143938
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Energia TUSD (kWh)",
+      "filas": 143938
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Desconto Demanda %",
+      "filas": 127339
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "PIS/COFINS (R$)",
+      "filas": 123865
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Energia Injetada (kWh)",
+      "filas": 103360
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Demanda Contratada kW",
+      "filas": 95509
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Número de consumidores",
+      "filas": 95051
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "Receita Energia (R$)",
+      "filas": 91840
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "ICMS (R$)",
+      "filas": 90719
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Receita Ultrapassagem Demanda (R$)",
+      "filas": 90100
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "Energia TUSD (kWh)",
+      "filas": 89569
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Ultrapassagem Demanda (kW)",
+      "filas": 89384
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Desconto de energia compensada %",
+      "filas": 89279
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Energia compensada (kWh)",
+      "filas": 88894
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "COFINS (R$)",
+      "filas": 84865
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "PIS/PASEP (R$)",
+      "filas": 84609
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "Energia TE (kWh)",
+      "filas": 82947
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Energia debitada do SCEE (kWh)",
+      "filas": 77089
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Energia Consumida (kWh)",
+      "filas": 64911
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Receita Bandeiras (R$)",
+      "filas": 60678
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "ICMS (R$)",
+      "filas": 59498
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Desconto de energia compensada %",
+      "filas": 59222
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Receita Energia (R$)",
+      "filas": 59156
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Energia compensada (kWh)",
+      "filas": 57659
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Energia TUSD (kWh)",
+      "filas": 57277
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Energia TE (kWh)",
+      "filas": 57277
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "COFINS (R$)",
+      "filas": 56057
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "PIS/PASEP (R$)",
+      "filas": 55843
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Desconto Energia TUSD %",
+      "filas": 54638
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "Receita Bandeiras (R$)",
+      "filas": 50306
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Receita energia compensada (R$)",
+      "filas": 48110
+    },
+    {
+      "tipo": "Regular",
+      "detalle": "Desconto Energia TE %",
+      "filas": 45845
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Energia Injetada (kWh)",
+      "filas": 45242
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "Número de consumidores",
+      "filas": 44983
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Número de consumidores",
+      "filas": 41908
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Receita Demanda (R$)",
+      "filas": 41803
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Demanda Faturada (kW)",
+      "filas": 41712
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "ICMS (R$)",
+      "filas": 40997
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "COFINS (R$)",
+      "filas": 37096
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "PIS/PASEP (R$)",
+      "filas": 36984
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Energia debitada do SCEE (kWh)",
+      "filas": 30487
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Receita Energia (R$)",
+      "filas": 29910
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Energia TE (kWh)",
+      "filas": 29038
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Energia TUSD (kWh)",
+      "filas": 29038
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Energia Consumida (kWh)",
+      "filas": 27851
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Receita Bandeiras (R$)",
+      "filas": 24742
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "Receita Demanda (R$)",
+      "filas": 23817
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "Demanda Faturada (kW)",
+      "filas": 22277
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Ultrapassagem Demanda (kW)",
+      "filas": 21324
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Receita Ultrapassagem Demanda (R$)",
+      "filas": 21317
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "COFINS (R$)",
+      "filas": 21112
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "ICMS (R$)",
+      "filas": 21082
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "PIS/PASEP (R$)",
+      "filas": 20956
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Desconto de energia compensada %",
+      "filas": 19232
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Número de consumidores",
+      "filas": 18898
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Energia Injetada (kWh)",
+      "filas": 17993
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Desconto Energia TUSD %",
+      "filas": 16211
+    },
+    {
+      "tipo": "Sistema de Compensação GD I",
+      "detalle": "Desconto Energia TE %",
+      "filas": 16211
+    },
+    {
+      "tipo": "Sistema Isolado - Regular",
+      "detalle": "Energia TE (kWh)",
+      "filas": 15895
+    },
+    {
+      "tipo": "Sistema Isolado - Regular",
+      "detalle": "Energia TUSD (kWh)",
+      "filas": 15895
+    },
+    {
+      "tipo": "Sistema Isolado - Regular",
+      "detalle": "Receita Energia (R$)",
+      "filas": 15823
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Energia compensada (kWh)",
+      "filas": 15649
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Receita Demanda (R$)",
+      "filas": 15442
+    },
+    {
+      "tipo": "Sistema de Compensação GD II",
+      "detalle": "Demanda Faturada (kW)",
+      "filas": 15360
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Receita Bandeiras (R$)",
+      "filas": 14975
+    },
+    {
+      "tipo": "Sistema de Compensação GD I - Refaturamento",
+      "detalle": "Energia debitada do SCEE (kWh)",
+      "filas": 13884
+    },
+    {
+      "tipo": "Refaturamento - Regular",
+      "detalle": "Desconto Energia TUSD %",
+      "filas": 12667
+    }
+  ]
+}

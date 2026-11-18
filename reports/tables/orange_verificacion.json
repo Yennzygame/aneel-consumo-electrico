@@ -1,0 +1,28 @@
+{
+  "python": "3.14.7",
+  "orange": "3.41.0",
+  "n_unidades": 700,
+  "n_meses": 68,
+  "replica_modelo_final": {
+    "ari_vs_proyecto": 1.0,
+    "coincidencia_tras_mapeo": 1.0,
+    "silhouette_orange": 0.2635,
+    "silhouette_proyecto": 0.2635,
+    "tamanos": {
+      "0": 366,
+      "1": 187,
+      "2": 147
+    }
+  },
+  "alternativa_descriptores": {
+    "representacion": "19 descriptores + Normalize (por columna, Orange)",
+    "ari_vs_proyecto": 0.0358,
+    "coincidencia_tras_mapeo": 0.5229,
+    "tamanos": {
+      "0": 509,
+      "1": 185,
+      "2": 6
+    }
+  },
+  "nota": "La replica exacta usa el mismo KMeans de scikit-learn que el pipeline; ARI=1 valida la exportacion normalizada y la configuracion, no un algoritmo distinto. La alternativa con descriptores es una representacion distinta y muestra cuanto cambia la particion."
+}

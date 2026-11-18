@@ -1,0 +1,23 @@
+{
+  "archivos": [
+    "samp-2021.csv",
+    "samp-2022.csv",
+    "samp-2023.csv",
+    "samp-2024.csv",
+    "samp-2025.csv",
+    "samp-2026.csv"
+  ],
+  "filas_leidas": 6671150,
+  "filas_regular_cativo": 2116425,
+  "filas_energia_tusd": 302717,
+  "filas_num_consumidores": 180989,
+  "filas_negativas_energia": 0,
+  "filas_panel": 55140,
+  "unidades": 833,
+  "agentes": 105,
+  "mes_inicio": "2021-01",
+  "mes_fin": "2026-09",
+  "total_mwh": 1603253889.7010446,
+  "total_consumidores_promedio_mes": 85641965.0289855,
+  "segundos": 27.7
+}

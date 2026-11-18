@@ -1,0 +1,70 @@
+{
+  "run_key": "serie68|winsor_z_fila|kmeans|k3",
+  "representacion": "serie68",
+  "escalado": "winsor_z_fila",
+  "algoritmo": "kmeans",
+  "k": 3,
+  "n_unidades": 700,
+  "n_agentes": 101,
+  "silhouette_espacio": 0.2635467690967008,
+  "inercia": 26027.396217582467,
+  "estabilidad_100": 0.8831885798490968,
+  "estabilidad_std_100": 0.11291944992810493,
+  "ari_ajuste_por_clase": 0.33273260318113657,
+  "cramers_v_clase": 0.5684501390859908,
+  "p_clase": 2.9356402174295005e-89,
+  "cramers_v_clase_ajustado": 0.19505125673209614,
+  "p_clase_ajustado": 3.6984613824951014e-07,
+  "nombres": {
+    "0": "Contracción sostenida",
+    "2": "Crecimiento acelerado",
+    "1": "Base estable"
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "n_unidades": 366,
+      "cv": 0.32866526288678893,
+      "tendencia_pct_mes": -1.1249347495860684,
+      "amplitud_estacional": 0.3470051178237984,
+      "fuerza_estacionalidad": 0.17815823993398733,
+      "crecimiento_12m": -0.4302879782216677,
+      "ac12": 0.6147890180278393,
+      "yoy_std": 0.4735215348206882,
+      "total_mwh": 629823005.8343948,
+      "share_mwh": 0.3968228713910199,
+      "consumidores": 12186171.01517812,
+      "nombre": "Contracción sostenida"
+    },
+    {
+      "cluster": 1,
+      "n_unidades": 187,
+      "cv": 0.1895135934331082,
+      "tendencia_pct_mes": 0.37714577837313185,
+      "amplitud_estacional": 0.3753742235887129,
+      "fuerza_estacionalidad": 0.44548057690328946,
+      "crecimiento_12m": 0.2767306447781529,
+      "ac12": 0.6851747698378524,
+      "yoy_std": 0.18857184777164937,
+      "total_mwh": 710031344.29665,
+      "share_mwh": 0.44735850264495963,
+      "consumidores": 58415468.37313433,
+      "nombre": "Base estable"
+    },
+    {
+      "cluster": 2,
+      "n_unidades": 147,
+      "cv": 0.21339111683080708,
+      "tendencia_pct_mes": 0.41687194469652133,
+      "amplitud_estacional": 0.3357911890409128,
+      "fuerza_estacionalidad": 0.3107349445325646,
+      "crecimiento_12m": 0.38388642383827315,
+      "ac12": 0.5036534240679894,
+      "yoy_std": 0.49515061453774284,
+      "total_mwh": 247309725.43400002,
+      "share_mwh": 0.15581862596402044,
+      "consumidores": 15778456.112635916,
+      "nombre": "Crecimiento acelerado"
+    }
+  ]
+}

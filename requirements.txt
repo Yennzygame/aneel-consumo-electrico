@@ -1,0 +1,31 @@
+# Entorno reproducido en Windows 11 con Python 3.15.0.
+# Instalación:  python -m pip install -r requirements.txt
+# Las versiones son las observadas al generar los artefactos del repositorio.
+
+# --- Núcleo de datos y modelado ---
+pandas==3.0.6
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# --- Registro de experimentos ---
+mlflow==3.18.0
+
+# --- Figuras ---
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# --- Notebooks ---
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0
+jupyter-client==8.10.0
+
+# --- Lectura/escritura auxiliar ---
+openpyxl==3.1.5
+
+# NOTA: Orange 3 NO se instala en este entorno. El proyecto usa un venv
+# separado (Python 3.14.x + Orange3==3.41.0) porque Orange fija versiones de
+# Qt y de sus dependencias que entran en conflicto con el entorno principal.
+# Ver docs/08_guia_orange.md y tools/orange_check.py.

@@ -1,0 +1,14 @@
+leyendo samp-2021.csv
+leyendo samp-2022.csv
+leyendo samp-2023.csv
+leyendo samp-2024.csv
+leyendo samp-2025.csv
+leyendo samp-2026.csv
+                     serie  prom_2021_gwh  prom_ult12_gwh  variacion_pct
+ GD Energia Injetada (kWh)     971.892907     8429.101575     767.287076
+GD Energia Consumida (kWh)    1057.309654     5979.655854     465.553888
+             Regular LIVRE   12587.637840    16779.489993      33.301341
+      Regular DISTRIBUI├ç├âO     412.778837      480.114515      16.312774
+            Regular CATIVO   24677.439733    21520.617855     -12.792340
+        Regular SUPRIMENTO     339.884265      217.782101     -35.924630
+[fig] 13_mercado_cativo_livre_gd.png

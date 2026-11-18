@@ -1,0 +1,89 @@
+filas Regular+CATIVO 2024: 357369
+
+Postos en conteo de consumidores: <ArrowStringArray>
+['N├úo se aplica']
+Length: 1, dtype: str
+Modalidades: <ArrowStringArray>
+['Convencional', 'Verde', 'Azul', 'Branca']
+Length: 4, dtype: str
+Subgrupos: <ArrowStringArray>
+['B1', 'A4', 'B4', 'B2', 'B3', 'A3', 'AS', 'A2', 'A3a']
+Length: 9, dtype: str
+Subclases: <ArrowStringArray>
+['Residencial baixa renda ┬û faixa 01',                      'N├úo se aplica',
+                        'Aquicultura', 'Residencial baixa renda ┬û faixa 02',
+           'Ilumina├º├úo p├║blica ┬û B4a',          '├ügua, esgoto e saneamento',
+                        'Residencial',                 'Agropecu├íria rural',
+           'Ilumina├º├úo p├║blica ┬û B4b', 'Residencial baixa renda ┬û faixa 04',
+                    'Tra├º├úo el├®trica', 'Residencial baixa renda ┬û faixa 03',
+ 'Servi├ºo p├║blico de irriga├º├úo rural', 'Cooperativa de eletrifica├º├úo rural']
+Length: 14, dtype: str
+Detalle consumidor: <ArrowStringArray>
+['N├úo se aplica', 'IRRIG./AQUIC.', 'Cooperativas autorizadas']
+Length: 3, dtype: str
+
+Distribucion de n_filas por (agente,clase,mes):
+n_filas
+1     2743
+2     2206
+3      909
+4      865
+5     1186
+6      673
+7      535
+8      239
+9       76
+10      32
+11      62
+12       2
+13      28
+14       9
+15      12
+16      13
+17      10
+18       1
+Name: count, dtype: int64
+n_postos: {1: 9601}
+n_subclases: {1: 6998, 5: 1157, 2: 779, 3: 482, 4: 185}
+Casos suma>max: 6858 de 9601
+
+Ejemplo de filas repetidas:
+SigAgenteDistribuidora DscClasseConsumoMercado DatCompetencia             DscSubClasseConsumidor DscPostoTarifario DscModalidadeTarifaria       val
+         Neoenergia PE             Residencial     2024-09-01 Residencial baixa renda ┬û faixa 01     N├úo se aplica           Convencional  183044.0
+         Neoenergia PE           Poder p├║blico     2024-09-01                      N├úo se aplica     N├úo se aplica                  Verde     913.0
+         Neoenergia PE                   Rural     2024-09-01                        Aquicultura     N├úo se aplica                   Azul       2.0
+         Neoenergia PE             Residencial     2024-09-01 Residencial baixa renda ┬û faixa 02     N├úo se aplica           Convencional  452041.0
+         Neoenergia PE                   Rural     2024-09-01                      N├úo se aplica     N├úo se aplica                   Azul       5.0
+         Neoenergia PE              Industrial     2024-09-01                      N├úo se aplica     N├úo se aplica                   Azul      19.0
+         Neoenergia PE      Ilumina├º├úo p├║blica     2024-09-01           Ilumina├º├úo p├║blica ┬û B4a     N├úo se aplica           Convencional    7611.0
+         Neoenergia PE                   Rural     2024-09-01                        Aquicultura     N├úo se aplica           Convencional     973.0
+         Neoenergia PE         Servi├ºo p├║blico     2024-09-01          ├ügua, esgoto e saneamento     N├úo se aplica                  Verde     243.0
+         Neoenergia PE             Residencial     2024-09-01                        Residencial     N├úo se aplica           Convencional 2302447.0
+         Neoenergia PE                   Rural     2024-09-01                 Agropecu├íria rural     N├úo se aplica                  Verde      98.0
+         Neoenergia PE              Industrial     2024-09-01                      N├úo se aplica     N├úo se aplica                  Verde     532.0
+         Neoenergia PE           Poder p├║blico     2024-09-01                      N├úo se aplica     N├úo se aplica                 Branca      12.0
+         Neoenergia PE      Ilumina├º├úo p├║blica     2024-09-01           Ilumina├º├úo p├║blica ┬û B4b     N├úo se aplica           Convencional      48.0
+         Neoenergia PE                   Rural     2024-09-01                      N├úo se aplica     N├úo se aplica                 Branca       7.0
+         Neoenergia PE         Consumo pr├│prio     2024-09-01                      N├úo se aplica     N├úo se aplica                  Verde      13.0
+         Neoenergia PE              Industrial     2024-09-01                      N├úo se aplica     N├úo se aplica           Convencional    2496.0
+         Neoenergia PE           Poder p├║blico     2024-09-01                      N├úo se aplica     N├úo se aplica                   Azul      93.0
+         Neoenergia PE               Comercial     2024-09-01                      N├úo se aplica     N├úo se aplica                 Branca     524.0
+         Neoenergia PE         Servi├ºo p├║blico     2024-09-01          ├ügua, esgoto e saneamento     N├úo se aplica           Convencional    3252.0
+
+Energia TUSD: postos <ArrowStringArray>
+['Ponta', 'Fora ponta', 'N├úo se aplica', 'Intermedi├írio']
+Length: 4, dtype: str | n filas 53017
+n_filas por unidad-mes: {1: 2717, 2: 293, 3: 1929, 4: 73, 5: 1075, 6: 333, 7: 235, 8: 782, 9: 120, 10: 836}
+SigAgenteDistribuidora DscClasseConsumoMercado DatCompetencia DscSubClasseConsumidor DscPostoTarifario DscModalidadeTarifaria        val
+         Neoenergia PE             Residencial     2024-09-01            Residencial             Ponta                 Branca    36860.0
+         Neoenergia PE             Residencial     2024-09-01            Residencial             Ponta                  Verde    25589.0
+         Neoenergia PE              Industrial     2024-09-01          N├úo se aplica             Ponta                   Azul   102478.0
+         Neoenergia PE               Comercial     2024-09-01          N├úo se aplica             Ponta                   Azul     2282.0
+         Neoenergia PE               Comercial     2024-09-01          N├úo se aplica             Ponta                   Azul   520605.0
+         Neoenergia PE                   Rural     2024-09-01     Agropecu├íria rural        Fora ponta                  Verde  5608700.0
+         Neoenergia PE                   Rural     2024-09-01          N├úo se aplica             Ponta                   Azul   134625.0
+         Neoenergia PE              Industrial     2024-09-01          N├úo se aplica        Fora ponta                  Verde 12373130.0
+         Neoenergia PE                   Rural     2024-09-01          N├úo se aplica        Fora ponta                 Branca     5592.0
+         Neoenergia PE         Consumo pr├│prio     2024-09-01          N├úo se aplica     N├úo se aplica           Convencional   970484.0
+         Neoenergia PE           Poder p├║blico     2024-09-01          N├úo se aplica        Fora ponta                   Azul  2892912.0
+         Neoenergia PE               Comercial     2024-09-01          N├úo se aplica        Fora ponta                  Verde 25608520.0

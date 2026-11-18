@@ -1,0 +1,149 @@
+=== COBERTURA ===
+count    734.000000
+mean       0.976338
+std        0.120874
+min        0.073529
+25%        1.000000
+50%        1.000000
+75%        1.000000
+max        1.000000
+Name: cobertura, dtype: float64
+unidades por cobertura:
+cobertura
+0.07      1
+0.12      7
+0.44      8
+0.47      7
+0.66      1
+0.81      1
+0.84      7
+0.91      1
+0.94      1
+0.96      1
+0.97      3
+0.99     10
+1.00    686
+Name: count, dtype: int64
+
+Excluidas por motivo:
+motivo_exclusion
+cobertura temporal insuficiente    34
+Name: count, dtype: int64
+
+=== CLASES (incluidas) ===
+                    unidades  agentes            mwh  mediana_mwh
+clase                                                            
+Residencial              101      101  880144.030767   197384.622
+Comercial                101      101  283194.701288    76322.750
+Rural                    101      101  125465.788523   117978.506
+Industrial                97       97   89497.644430   117965.384
+Poder p├║blico            101      101   79374.712197    14050.747
+Ilumina├º├úo p├║blica       100      100   77979.716938    29056.436
+Servi├ºo p├║blico           99       99   51507.481422    15285.505
+
+=== TAMANO POR UNIDAD (MWh totales 68 meses) ===
+count    7.000000e+02
+mean     2.267377e+06
+std      7.467356e+06
+min      3.983600e+01
+1%       1.187760e+02
+5%       1.279428e+03
+10%      2.967403e+03
+25%      1.350638e+04
+50%      6.921730e+04
+75%      1.150617e+06
+90%      5.233201e+06
+95%      9.919978e+06
+99%      4.109012e+07
+max      9.808617e+07
+Name: total_mwh, dtype: float64
+unidades < 1 GWh total: 28
+unidades < 10 GWh total: 153
+unidades sin consumidores: 0
+
+=== PCA ===
+componente  varianza_explicada  acumulada
+       PC1            0.418698   0.418698
+       PC2            0.130735   0.549433
+       PC3            0.075236   0.624669
+       PC4            0.043835   0.668504
+       PC5            0.029413   0.697916
+       PC6            0.028759   0.726676
+       PC7            0.021681   0.748357
+       PC8            0.018474   0.766831
+       PC9            0.015472   0.782303
+      PC10            0.013651   0.795954
+
+=== DESCRIPTORES: resumen ===
+                               mean           std           min           50%           max
+cv                     2.672843e-01  2.978876e-01  6.085583e-03  1.981771e-01  4.880175e+00
+tendencia_pct_mes     -3.998853e-01  1.031033e+00 -4.601161e+00 -2.068271e-01  3.351762e+00
+tendencia_r2           4.037325e-01  2.946596e-01  3.652292e-09  3.708922e-01  9.784386e-01
+amplitud_estacional    3.522288e-01  4.167936e-01  8.426020e-03  2.707895e-01  6.788757e+00
+fuerza_estacionalidad  2.774126e-01  2.386451e-01  4.862974e-03  1.907165e-01  9.817580e-01
+ac1                    7.142655e-01  2.526322e-01 -4.661230e-01  7.766935e-01  9.897488e-01
+ac12                   6.102536e-01  2.828352e-01 -4.129642e-01  6.917347e-01  9.757154e-01
+yoy_media              1.108803e-02  3.449747e-01 -3.644373e-01 -7.930128e-03  6.834023e+00
+yoy_std                4.019414e-01  2.357590e+00  6.534622e-03  1.331229e-01  5.077294e+01
+drawdown_max           5.379488e-01  2.275733e-01  5.051856e-02  5.264541e-01  9.997885e-01
+rango_p90_p10          5.814652e-01  3.874005e-01  0.000000e+00  4.859705e-01  3.182612e+00
+iqr_relativo           3.471842e-01  2.879396e-01  0.000000e+00  2.564543e-01  1.996873e+00
+share_bajo_80          1.814706e-01  1.643999e-01  0.000000e+00  1.617647e-01  9.852941e-01
+share_alto_120         1.717647e-01  1.433431e-01  0.000000e+00  1.470588e-01  6.617647e-01
+crecimiento_12m       -7.043638e-02  5.822437e-01 -9.973018e-01 -1.126430e-01  6.055907e+00
+mes_pico               4.898571e+00  3.720146e+00  1.000000e+00  3.000000e+00  1.200000e+01
+mes_valle              6.342857e+00  3.209810e+00  1.000000e+00  7.000000e+00  1.200000e+01
+pico_sin               1.088855e-01  6.717802e-01 -1.000000e+00  0.000000e+00  1.000000e+00
+pico_cos               3.537692e-01  6.426019e-01 -1.000000e+00  5.000000e-01  1.000000e+00
+valle_sin             -1.209157e-02  5.722451e-01 -1.000000e+00  1.224647e-16  1.000000e+00
+valle_cos             -1.623993e-01  8.046170e-01 -1.000000e+00 -5.000000e-01  1.000000e+00
+total_mwh              2.267377e+06  7.467356e+06  3.983600e+01  6.921730e+04  9.808617e+07
+log_total_mwh          1.152427e+01  2.880505e+00  3.709564e+00  1.114502e+01  1.840136e+01
+consumidores_medios    1.234001e+05  6.180344e+05  1.000000e+00  8.540294e+02  7.425084e+06
+log_consumidores       6.779994e+00  3.421203e+00  6.931472e-01  6.751136e+00  1.582037e+01
+mwh_por_consumidor     1.050839e+01  4.914637e+01  9.616492e-02  1.188657e+00  1.066377e+03
+
+NaNs en descriptores: 0
+Infinitos: 0
+
+=== MATRIZ serie68: meses y NaNs ===
+shape (700, 68) | NaNs 0 | min 0.1 | max 3009913.255
+primeras columnas ['2021-01', '2021-02', '2021-03', '2021-04', '2021-05'] ... ['2026-06', '2026-07', '2026-08']
+
+=== TOP 15 unidades por consumo ===
+                                        agente        clase  total_mwh  cobertura  consumidores_medios
+unidad                                                                                                
+ELETROPAULO | Residencial          ELETROPAULO  Residencial    98086.2        1.0         7.425084e+06
+CEMIG-D | Residencial                  CEMIG-D  Residencial    66695.8        1.0         7.218035e+06
+CPFL-PAULISTA | Residencial      CPFL-PAULISTA  Residencial    58605.0        1.0         4.286799e+06
+COPEL-DIS | Residencial              COPEL-DIS  Residencial    47477.6        1.0         4.013002e+06
+LIGHT SESA | Residencial            LIGHT SESA  Residencial    46011.1        1.0         3.640136e+06
+COELBA | Residencial                    COELBA  Residencial    43549.2        1.0         5.641453e+06
+ELETROPAULO | Comercial            ELETROPAULO    Comercial    42323.5        1.0         4.105248e+05
+CELESC | Residencial                    CELESC  Residencial    41077.7        1.0         2.578935e+06
+EQUATORIAL GO | Residencial      EQUATORIAL GO  Residencial    33221.1        1.0         2.742038e+06
+RGE SUL | Residencial                  RGE SUL  Residencial    32796.9        1.0         2.407790e+06
+Neoenergia PE | Residencial      Neoenergia PE  Residencial    31561.5        1.0         3.480315e+06
+ENEL CE | Residencial                  ENEL CE  Residencial    30615.0        1.0         3.113069e+06
+ENEL RJ | Residencial                  ENEL RJ  Residencial    30056.8        1.0         2.429881e+06
+ELEKTRO | Residencial                  ELEKTRO  Residencial    29684.2        1.0         2.488702e+06
+CPFL-PIRATINING | Residencial  CPFL-PIRATINING  Residencial    25324.1        1.0         1.756049e+06
+
+=== Distribuidoras y clases ===
+agentes: 101
+count    101.000000
+mean       6.930693
+std        0.291802
+min        5.000000
+25%        7.000000
+50%        7.000000
+75%        7.000000
+max        7.000000
+dtype: float64
+
+Clases por agente:
+clase
+5     1
+6     5
+7    95
+Name: count, dtype: int64

@@ -1,0 +1,177 @@
+procesado samp-2021.csv
+procesado samp-2022.csv
+procesado samp-2023.csv
+procesado samp-2024.csv
+procesado samp-2025.csv
+procesado samp-2026.csv
+
+Filas totales: 6,671,150
+
+=== Detalles en Regular + CATIVO ===
+'Energia TE (kWh)'                       n=  302,717 sum=1,603,253,889,701.0 min=           1.00 max=  2,625,001,113.00 neg=      0 cero=      0 unidades=55,137
+'Energia TUSD (kWh)'                     n=  302,717 sum=1,603,253,889,701.0 min=           1.00 max=  2,625,001,113.00 neg=      0 cero=      0 unidades=55,137
+'Receita Energia (R$)'                   n=  302,093 sum=1,048,437,531,002.2 min=           0.01 max=  7,926,986,237.27 neg=      0 cero=      0 unidades=55,136
+'N├║mero de consumidores'                 n=  180,989 sum=   5,909,295,587.0 min=           1.00 max=      6,623,570.00 neg=      0 cero=      0 unidades=55,050
+'ICMS (R$)'                              n=  165,956 sum= 257,617,058,345.2 min=           0.02 max=  2,778,815,015.47 neg=      0 cero=      0 unidades=51,109
+'COFINS (R$)'                            n=  156,769 sum=  47,477,301,961.0 min=           0.01 max=    336,325,943.82 neg=      0 cero=      0 unidades=45,858
+'PIS/PASEP (R$)'                         n=  156,752 sum=  10,405,870,085.5 min=           0.01 max=     94,140,745.00 neg=      0 cero=      0 unidades=45,878
+'Receita Bandeiras (R$)'                 n=  145,237 sum=  46,846,314,890.2 min=           0.01 max=    265,149,893.00 neg=      0 cero=      0 unidades=33,917
+'Receita Demanda (R$)'                   n=   94,545 sum=  38,753,314,710.4 min=           0.01 max=    967,484,314.00 neg=      0 cero=      0 unidades=32,171
+'Demanda Faturada (kW)'                  n=   94,444 sum=   1,576,207,587.8 min=           1.00 max=     25,234,333.00 neg=      0 cero=      0 unidades=32,174
+'Ultrapassagem Demanda (kW)'             n=   55,625 sum=     109,016,574.9 min=           1.00 max=     25,202,740.00 neg=      0 cero=      0 unidades=23,049
+'Receita Ultrapassagem Demanda (R$)'     n=   55,433 sum=   7,355,871,861.5 min=           0.39 max=  1,932,546,139.00 neg=      0 cero=      0 unidades=23,057
+'Desconto Energia TE %'                  n=   43,739 sum=       1,281,623.7 min=           0.00 max=            160.00 neg=      0 cero=      0 unidades=9,241
+'Desconto Energia TUSD %'                n=   43,739 sum=       1,281,623.7 min=           0.00 max=            160.00 neg=      0 cero=      0 unidades=9,241
+'Desconto Demanda %'                     n=   15,336 sum=          74,678.2 min=           0.20 max=             49.21 neg=      0 cero=      0 unidades=4,578
+'N├║mero de Consumidores'                 n=      155 sum=             155.0 min=           1.00 max=              1.00 neg=      0 cero=      0 unidades=155
+'PIS/COFINS (R$)'                        n=      155 sum=       8,499,308.6 min=          16.28 max=        219,665.18 neg=      0 cero=      0 unidades=155
+'CBS (R$)'                               n=       12 sum=          12,863.2 min=           3.78 max=          7,251.27 neg=      0 cero=      0 unidades=9
+'IBS (R$)'                               n=       12 sum=           1,430.1 min=           0.42 max=            806.25 neg=      0 cero=      0 unidades=9
+
+=== Totales mensuales (unidades originales) para detalles de energia ===
+mes,Energia TE (kWh),Energia TUSD (kWh)
+2021-01-01,25638711404,25638711404
+2021-02-01,25402034217,25402034217
+2021-03-01,25882951762,25882951762
+2021-04-01,25706990518,25706990518
+2021-05-01,23738840163,23738840163
+2021-06-01,23991159191,23991159191
+2021-07-01,23115055422,23115055422
+2021-08-01,23416057268,23416057268
+2021-09-01,24717837914,24717837914
+2021-10-01,24725194092,24725194092
+2021-11-01,24107609868,24107609868
+2021-12-01,25686834972,25686834972
+2022-01-01,24703594881,24703594881
+2022-02-01,24720051472,24720051472
+2022-03-01,26073985801,26073985801
+2022-04-01,27576334411,27576334411
+2022-05-01,23748970534,23748970534
+2022-06-01,22918618558,22918618558
+2022-07-01,23094770056,23094770056
+2022-08-01,23313990391,23313990391
+2022-09-01,23609655388,23609655388
+2022-10-01,23467040477,23467040477
+2022-11-01,24131061978,24131061978
+2022-12-01,24774666211,24774666211
+2023-01-01,23960301987,23960301987
+2023-02-01,24419556225,24419556225
+2023-03-01,25508562364,25508562364
+2023-04-01,24611979337,24611979337
+2023-05-01,23256641138,23256641138
+2023-06-01,22841817779,22841817779
+2023-07-01,22128796026,22128796026
+2023-08-01,22675258981,22675258981
+2023-09-01,23703371913,23703371913
+2023-10-01,24595176178,24595176178
+2023-11-01,25122322592,25122322592
+2023-12-01,32117290922,32117290922
+2024-01-01,25427134490,25427134490
+2024-02-01,24783125487,24783125487
+2024-03-01,25098279780,25098279780
+2024-04-01,24462799491,24462799491
+2024-05-01,24347614441,24347614441
+2024-06-01,22763641882,22763641882
+2024-07-01,21750312685,21750312685
+2024-08-01,22166930096,22166930096
+2024-09-01,22494339750,22494339750
+2024-10-01,23462265083,23462265083
+2024-11-01,23068072755,23068072755
+2024-12-01,23202048741,23202048741
+2025-01-01,23022921391,23022921391
+2025-02-01,23736410080,23736410080
+2025-03-01,24328587752,24328587752
+2025-04-01,22376303614,22376303614
+2025-05-01,21557372220,21557372220
+2025-06-01,20510786248,20510786248
+2025-07-01,20508641301,20508641301
+2025-08-01,20339874115,20339874115
+2025-09-01,20755388591,20755388591
+2025-10-01,21490999032,21490999032
+2025-11-01,21281484162,21281484162
+2025-12-01,22297153801,22297153801
+2026-01-01,24336692712,24336692712
+2026-02-01,21745209472,21745209472
+2026-03-01,22037466488,22037466488
+2026-04-01,22505517600,22505517600
+2026-05-01,21086423919,21086423919
+2026-06-01,20053920761,20053920761
+2026-07-01,20261392644,20261392644
+2026-08-01,20395765079,20395765079
+2026-09-01,2395921650,2395921650
+
+=== Suma por clase (periodo completo, GWh) ===
+
+Energia TE (kWh)
+  Comercial                 285,101.7 GWh
+  Consumo pr├│prio             3,071.7 GWh
+  Ilumina├º├úo p├║blica         80,344.8 GWh
+  Industrial                 89,961.7 GWh
+  N├úo se aplica                 397.6 GWh
+  Poder p├║blico              80,241.2 GWh
+  Residencial               886,673.2 GWh
+  Rural                     125,810.9 GWh
+  Servi├ºo p├║blico            51,651.1 GWh
+
+Energia TUSD (kWh)
+  Comercial                 285,101.7 GWh
+  Consumo pr├│prio             3,071.7 GWh
+  Ilumina├º├úo p├║blica         80,344.8 GWh
+  Industrial                 89,961.7 GWh
+  N├úo se aplica                 397.6 GWh
+  Poder p├║blico              80,241.2 GWh
+  Residencial               886,673.2 GWh
+  Rural                     125,810.9 GWh
+  Servi├ºo p├║blico            51,651.1 GWh
+
+=== Combos detalle x clase (top 50) ===
+   70,649  'Receita Energia (R$)'                 | 'Rural'
+   70,581  'Energia TUSD (kWh)'                   | 'Rural'
+   70,581  'Energia TE (kWh)'                     | 'Rural'
+   52,384  'Energia TUSD (kWh)'                   | 'Residencial'
+   52,384  'Energia TE (kWh)'                     | 'Residencial'
+   51,180  'Receita Energia (R$)'                 | 'Residencial'
+   45,782  'Receita Energia (R$)'                 | 'Comercial'
+   45,703  'Energia TUSD (kWh)'                   | 'Comercial'
+   45,703  'Energia TE (kWh)'                     | 'Comercial'
+   44,884  'Receita Energia (R$)'                 | 'Industrial'
+   44,659  'Energia TUSD (kWh)'                   | 'Industrial'
+   44,659  'Energia TE (kWh)'                     | 'Industrial'
+   40,484  'N├║mero de consumidores'               | 'Residencial'
+   38,253  'ICMS (R$)'                            | 'Residencial'
+   35,075  'COFINS (R$)'                          | 'Residencial'
+   35,027  'PIS/PASEP (R$)'                       | 'Residencial'
+   34,854  'N├║mero de consumidores'               | 'Rural'
+   34,557  'Receita Energia (R$)'                 | 'Poder p├║blico'
+   34,541  'Energia TUSD (kWh)'                   | 'Poder p├║blico'
+   34,541  'Energia TE (kWh)'                     | 'Poder p├║blico'
+   32,329  'Receita Energia (R$)'                 | 'Servi├ºo p├║blico'
+   32,134  'Energia TE (kWh)'                     | 'Servi├ºo p├║blico'
+   32,134  'Energia TUSD (kWh)'                   | 'Servi├ºo p├║blico'
+   30,714  'COFINS (R$)'                          | 'Rural'
+   30,704  'PIS/PASEP (R$)'                       | 'Rural'
+   29,713  'ICMS (R$)'                            | 'Rural'
+   29,623  'Desconto Energia TUSD %'              | 'Rural'
+   29,623  'Desconto Energia TE %'                | 'Rural'
+   28,131  'Receita Bandeiras (R$)'               | 'Rural'
+   26,766  'Receita Bandeiras (R$)'               | 'Residencial'
+   24,363  'N├║mero de consumidores'               | 'Industrial'
+   24,199  'N├║mero de consumidores'               | 'Comercial'
+   23,773  'Receita Bandeiras (R$)'               | 'Comercial'
+   23,379  'ICMS (R$)'                            | 'Comercial'
+   23,378  'ICMS (R$)'                            | 'Industrial'
+   22,028  'Receita Bandeiras (R$)'               | 'Industrial'
+   21,486  'PIS/PASEP (R$)'                       | 'Comercial'
+   21,472  'COFINS (R$)'                          | 'Comercial'
+   20,882  'PIS/PASEP (R$)'                       | 'Industrial'
+   20,871  'COFINS (R$)'                          | 'Industrial'
+   20,621  'Receita Demanda (R$)'                 | 'Industrial'
+   20,600  'Demanda Faturada (kW)'                | 'Industrial'
+   19,504  'N├║mero de consumidores'               | 'Servi├ºo p├║blico'
+   19,305  'N├║mero de consumidores'               | 'Poder p├║blico'
+   18,355  'Receita Demanda (R$)'                 | 'Rural'
+   18,266  'Demanda Faturada (kW)'                | 'Rural'
+   17,904  'Demanda Faturada (kW)'                | 'Comercial'
+   17,899  'Receita Demanda (R$)'                 | 'Comercial'
+   17,850  'ICMS (R$)'                            | 'Poder p├║blico'
+   17,581  'PIS/PASEP (R$)'                       | 'Poder p├║blico'
