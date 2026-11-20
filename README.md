@@ -4,6 +4,10 @@
 
 Ronald Alvarez · Yennzy Barrera
 
+**Repositorio:** https://github.com/Yennzygame/aneel-consumo-electrico
+
+![Código QR del repositorio](docs/qr_repositorio.png)
+
 ---
 
 ## 1. Qué hace este proyecto

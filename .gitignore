@@ -33,3 +33,9 @@ mlartifacts/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Archivos de bloqueo de Astah
+*.asta.lock
+
+# Material del curso no se versiona
+IND2622-2025-TrabalhoFinal.pdf
